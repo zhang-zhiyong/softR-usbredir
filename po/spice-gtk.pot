@@ -1,0 +1,337 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Copyright (C) 2010-2017 Red Hat, Inc.
+# This file is distributed under the same license as the spice-gtk package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: spice-gtk 0.34\n"
+"Report-Msgid-Bugs-To: spice-devel@lists.freedesktop.org\n"
+"POT-Creation-Date: 2017-07-31 14:20+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/channel-main.c:1868
+msgid "The spice agent cancelled the file transfer"
+msgstr ""
+
+#: src/channel-main.c:1872
+msgid "The spice agent reported an error during the file transfer"
+msgstr ""
+
+#: src/channel-main.c:1879
+#, c-format
+msgid ""
+"File transfer failed due to lack of free space on remote machine (%s free, "
+"%s to transfer)"
+msgstr ""
+
+#: src/channel-main.c:1887
+msgid ""
+"User's session is locked and cannot transfer files, unlock it and try again."
+msgstr ""
+
+#: src/channel-main.c:1892
+msgid "Session agent not connected."
+msgstr ""
+
+#: src/channel-main.c:1896
+msgid "File transfer is disabled."
+msgstr ""
+
+#: src/channel-main.c:3122
+#, c-format
+msgid "The file transfer is disabled"
+msgstr ""
+
+#: src/channel-usbredir.c:906
+#, c-format
+msgid "usbredir protocol parse error for %s"
+msgstr ""
+
+#: src/channel-usbredir.c:911
+#, c-format
+msgid "%s rejected by host"
+msgstr ""
+
+#: src/channel-usbredir.c:916
+#, c-format
+msgid "%s disconnected (fatal IO error)"
+msgstr ""
+
+#: src/channel-usbredir.c:920
+#, c-format
+msgid "Unknown error (%d) for %s"
+msgstr ""
+
+#: src/desktop-integration.c:104
+msgid "Automounting has been inhibited for USB auto-redirecting"
+msgstr ""
+
+#: src/spice-channel.c:1183
+msgid "Authentication failed"
+msgstr ""
+
+#: src/spice-channel.c:1201
+msgid "Authentication failed: password is too long"
+msgstr ""
+
+#: src/spice-channel.c:1206
+msgid "Authentication failed: wrong password?"
+msgstr ""
+
+#: src/spice-option.c:65
+#, c-format
+msgid "missing color depth, must be 16 or 32"
+msgstr ""
+
+#: src/spice-option.c:81
+#, c-format
+msgid "invalid color depth (%s), must be 16 or 32"
+msgstr ""
+
+#: src/spice-option.c:101
+#, c-format
+msgid ""
+"invalid effect name (%s), must be 'wallpaper', 'font-smooth', 'animation' or "
+"'all'"
+msgstr ""
+
+#: src/spice-option.c:125
+#, c-format
+msgid "invalid channel name (%s), valid names: all, %s"
+msgstr ""
+
+#: src/spice-option.c:173
+#, c-format
+msgid "Image compression algorithm %s not supported"
+msgstr ""
+
+#: src/spice-option.c:195
+msgid "Force the specified channels to be secured"
+msgstr ""
+
+#: src/spice-option.c:197
+msgid "Disable guest display effects"
+msgstr ""
+
+#: src/spice-option.c:199
+msgid "Guest display color depth (deprecated)"
+msgstr ""
+
+#: src/spice-option.c:201
+msgid "Truststore file for secure connections"
+msgstr ""
+
+#: src/spice-option.c:201
+msgid "<file>"
+msgstr ""
+
+#: src/spice-option.c:203
+msgid "Subject of the host certificate (field=value pairs separated by commas)"
+msgstr ""
+
+#: src/spice-option.c:203
+msgid "<host-subject>"
+msgstr ""
+
+#: src/spice-option.c:205
+msgid "Disable audio support"
+msgstr ""
+
+#: src/spice-option.c:207
+msgid "Enable smartcard support"
+msgstr ""
+
+#: src/spice-option.c:209
+msgid ""
+"Certificates to use for software smartcards (field=values separated by "
+"commas)"
+msgstr ""
+
+#: src/spice-option.c:209
+msgid "<certificates>"
+msgstr ""
+
+#: src/spice-option.c:211
+msgid ""
+"Path to the local certificate database to use for software smartcard "
+"certificates"
+msgstr ""
+
+#: src/spice-option.c:211
+msgid "<certificate-db>"
+msgstr ""
+
+#: src/spice-option.c:213
+msgid "Disable USB redirection support"
+msgstr ""
+
+#: src/spice-option.c:218
+msgid "Filter selecting USB devices to be auto-redirected when plugged in"
+msgstr ""
+
+#: src/spice-option.c:218 src/spice-option.c:220
+msgid "<filter-string>"
+msgstr ""
+
+#: src/spice-option.c:220
+msgid "Filter selecting USB devices to redirect on connect"
+msgstr ""
+
+#: src/spice-option.c:222
+msgid "Image cache size (deprecated)"
+msgstr ""
+
+#: src/spice-option.c:222 src/spice-option.c:224
+msgid "<bytes>"
+msgstr ""
+
+#: src/spice-option.c:224
+msgid "Glz compression history size (deprecated)"
+msgstr ""
+
+#: src/spice-option.c:226
+msgid "Shared directory"
+msgstr ""
+
+#: src/spice-option.c:226
+msgid "<dir>"
+msgstr ""
+
+#: src/spice-option.c:228
+msgid "Preferred image compression algorithm"
+msgstr ""
+
+#: src/spice-option.c:236
+msgid "Enable Spice-GTK debugging"
+msgstr ""
+
+#: src/spice-option.c:238
+msgid "Display Spice-GTK version information"
+msgstr ""
+
+#: src/spice-option.c:243
+msgid "Spice Options:"
+msgstr ""
+
+#: src/spice-option.c:243
+msgid "Show Spice Options"
+msgstr ""
+
+#: src/usb-device-manager.c:359 src/usb-device-manager.c:1747
+msgid "USB redirection support not compiled in"
+msgstr ""
+
+#: src/usb-device-manager.c:1434
+msgid "Device was not found"
+msgstr ""
+
+#: src/usb-device-manager.c:1450
+msgid "No free USB channel"
+msgstr ""
+
+#: src/usb-device-manager.c:1684
+msgid "USB redirection is disabled"
+msgstr ""
+
+#: src/usb-device-manager.c:1690
+msgid "The connected VM is not configured for USB redirection"
+msgstr ""
+
+#: src/usb-device-manager.c:1712
+msgid "Some USB devices were not found"
+msgstr ""
+
+#: src/usb-device-manager.c:1722
+msgid "Some USB devices are blocked by host policy"
+msgstr ""
+
+#: src/usb-device-manager.c:1740
+msgid "There are no free USB channels"
+msgstr ""
+
+#: src/usb-device-manager.c:1796
+#, c-format
+msgid "%s %s %s at %d-%d"
+msgstr ""
+
+#: src/usb-device-widget.c:207
+msgid "Select USB devices to redirect"
+msgstr ""
+
+#: src/usb-device-widget.c:420
+#, c-format
+msgid "Select USB devices to redirect (%d free channel)"
+msgstr ""
+
+#: src/usb-device-widget.c:421
+#, c-format
+msgid "Select USB devices to redirect (%d free channels)"
+msgstr ""
+
+#: src/usb-device-widget.c:439
+msgid "Redirecting USB Device..."
+msgstr ""
+
+#: src/usb-device-widget.c:447
+msgid "No USB devices detected"
+msgstr ""
+
+#: src/usbutil.c:296
+msgid "USB"
+msgstr ""
+
+#: src/usbutil.c:298
+msgid "Device"
+msgstr ""
+
+#: tools/spice-cmdline.c:36
+msgid "Spice server uri"
+msgstr ""
+
+#: tools/spice-cmdline.c:37
+msgid "<uri>"
+msgstr ""
+
+#: tools/spice-cmdline.c:43
+msgid "Spice server address"
+msgstr ""
+
+#: tools/spice-cmdline.c:44
+msgid "<host>"
+msgstr ""
+
+#: tools/spice-cmdline.c:50
+msgid "Spice server port"
+msgstr ""
+
+#: tools/spice-cmdline.c:51 tools/spice-cmdline.c:58
+msgid "<port>"
+msgstr ""
+
+#: tools/spice-cmdline.c:57
+msgid "Spice server secure port"
+msgstr ""
+
+#: tools/spice-cmdline.c:64
+msgid "Server password"
+msgstr ""
+
+#: tools/spice-cmdline.c:65
+msgid "<password>"
+msgstr ""
+
+#: tools/spice-cmdline.c:76
+msgid "Spice connection options:"
+msgstr ""
+
+#: tools/spice-cmdline.c:77
+msgid "Show Spice options"
+msgstr ""
