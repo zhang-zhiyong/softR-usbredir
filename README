@@ -1,2 +1,8 @@
 ./configure --without-gtk PKG_CONFIG_PATH=/home/j1900/usbsource/install/share/pkgconfig/:/home/j1900/usbsource/install/lib/pkgconfig/  --prefix=$(pwd)/usbredirection  --enable-usbredir=yes  --enable-smartcard=no  --enable-lz4=no --with-sasl=no  --disable-gstvideo  --disable-webdav  --enable-builtin-mjpeg=no 
 
+
+
+
+
+
+
